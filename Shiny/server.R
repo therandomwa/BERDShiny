@@ -1,16 +1,12 @@
-#
-# This is the server logic of a Shiny web application. You can run the
-# application by clicking 'Run App' above.
-#
-# Find out more about building applications with Shiny here:
-#
-#    http://shiny.rstudio.com/
-#
+# Title: Shiny app for clinical trial visualization
+# Author: Aijin Wang, Contact details: aijinwang3@gmail.com
+# Script info: phase I, II and III trial visualization
+# Columbia University Irving Institute for Clinical and Translational Research
+# Last updated: November 6, 2019
 
 library(shiny)
 library(tidyverse)
-#library(survival)
-#library(dfcrm)
+
 
 # Define server logic required to draw a histogram
 server <- function(input, output, session) {
