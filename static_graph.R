@@ -1,4 +1,4 @@
-# # Static graph option 1 amd 2 in phase I trial
+# Static graph option 1 amd 2 in phase I trial
 
 trial = readxl::read_excel("Data for CYap.xlsx")
 names(trial) <- gsub(" ", "_", names(trial))
