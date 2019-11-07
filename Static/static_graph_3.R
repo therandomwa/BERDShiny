@@ -1,5 +1,3 @@
-# Static graph option 3 in phase I trial
-
 rm(list = ls())
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 library(tidyverse)

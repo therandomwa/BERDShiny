@@ -1,5 +1,3 @@
-# Static graph option 1 amd 2 in phase I trial
-
 trial = readxl::read_excel("Data for CYap.xlsx")
 names(trial) <- gsub(" ", "_", names(trial))
 trial$DLT = as.factor(trial$DLT)
